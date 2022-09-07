@@ -1,0 +1,29 @@
+CSE 101 HOMEWORK 1
+
+Merilyn Kuo, October 2021
+-----------------------------------------------------
+
+FILES
+Code files: Makefile, linkedlist.cpp, bard.cpp, linkedlist.h
+Test files: more-input.txt, more-output.txt, more-output.txt, simple-input.txt, simple-output.txt
+Extra files: README, .pdf
+
+----------------------------------------------------
+
+PROGRAM DESCRIPTION
+This program takes in a list of Shakespearian words and adds them to an array of linked lists where the index of
+the array corresponds to the lengths of the words stored in the linked list at that index. Each of the linked lists
+are sorted by frequency of the words then by lexographical order. The program takes in another input file, 
+querying each line and finding the word in the array of linked lists. The word is printed to the output file.
+
+----------------------------------------------------
+
+USAGE
+1) Run "make", to get executable "bard".
+2) Run "./bard <INPUT FILE> <OUTPUT FILE>"
+
+----------------------------------------------------
+
+CREDITS
+Code for linkedlist.h and linkedlist.cpp from Sesh's linked list example.
+Code for parsing input files are based on Sesh's linked list practice test wrapper.
