@@ -1,0 +1,28 @@
+CSE 101 HOMEWORK 3
+
+Merilyn Kuo, November 2021
+-----------------------------------------------------
+
+FILES
+Code files: Makefile, wordrange.cpp, avl.cpp, avl.h, node.h, node.cpp
+Test files:allwords-basic-output.txt, allwords-basic.txt, allwords-more-range-output.txt, 
+					allwords-more-range.txt simple-input.txt, simple-output.txt
+Extra files: README, .pdf
+
+----------------------------------------------------
+
+PROGRAM DESCRIPTION
+This program inserts words into a self balancing binary search tree and uses it to preform 
+range queries between a given range.
+
+----------------------------------------------------
+
+USAGE
+1) Run "make", to get executable "wordrange".
+2) Run "./wordrange <INPUT FILE> <OUTPUT FILE>"
+
+----------------------------------------------------
+
+CREDITS
+Code for find() is from Sesh's BST ADT.
+Code for parsing input files is based on Sesh's BST codes (treewrapper.cpp).
