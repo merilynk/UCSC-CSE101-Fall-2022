@@ -1,0 +1,22 @@
+CSE 101 HOMEWORK 2
+
+Merilyn Kuo, October 23 2021
+-----------------------------------------------------
+
+FILES
+Code files: Makefile, nqueens.cpp queen.cpp, queen.h, chessboard.cpp, chessboard.h
+Test files: simple-input.txt, more-input.txt, test-5-input.txt
+Extra files: README, hw_nqueens.pdf
+
+----------------------------------------------------
+
+PROGRAM DESCRIPTION
+This program takes in an input file specifying chessboards of size n and x number of preplaced queens. The program then
+runs an algorithm to place the remaining queens on the chessboard so that no queens are attacking each other. The solution
+or "No Solution" is outputted into the output file for each line of input in the input file.
+
+----------------------------------------------------
+
+USAGE
+1) Run "make", to get executable "nqueens".
+2) Run "./nqueens <INPUT FILE> <OUTPUT FILE>"

@@ -1,0 +1,14 @@
+Start with 0.0 points.
+=================================
+Solution has failed on an input. This input is given in your solution folder.
+An example output is also given in your directory.Messages from verifier script follows. This should give some description of why your solution is incorrect.
+====================================
+For input: 6 1 3
+Your output (given below) has an incorrect number of entries, so it cannot be a full list of queen positions.
+1 3 2 5 4 1 5 6 6 4 
+
+FAIL
+
+===========================================
+Final score
+0
