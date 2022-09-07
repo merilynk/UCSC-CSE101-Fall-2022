@@ -1,0 +1,33 @@
+CSE 101 HOMEWORK 4
+
+Merilyn Kuo, December 2021
+-----------------------------------------------------
+
+FILES
+Code files: Makefile, sixdegrees.cpp, graph.cpp, graph.h
+Test files: simple-input.txt, simple-output.txt, more-input.txt, more output.txt
+Extra files: README, .pdf
+
+----------------------------------------------------
+
+PROGRAM DESCRIPTION
+This program takes a file of movies and creates a graph of its actors. Using the graph the program can find the
+shortest path between the two actors. 
+
+----------------------------------------------------
+
+USAGE
+1) Run "make", to get executable "sixdegrees".
+2) Run "./sixdegrees <INPUT FILE> <OUTPUT FILE>"
+
+----------------------------------------------------
+CREDITS:
+Parsing code in sixdegrees.cpp is based on HW3 code.
+
+Used code templates from these links in graph.h:
+https://thispointer.com/using-stdset-with-user-defined-classes/
+https://en.cppreference.com/w/cpp/utility/hash
+
+Refered to:
+https://www.youtube.com/watch?v=r01r8mEs9I4
+https://www.youtube.com/watch?v=r01r8mEs9I4
